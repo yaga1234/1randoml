@@ -1,2 +1,0 @@
-symcfg add -k 'C:\Microsoft Network Service' -v /my/path/to/folder1 -d 1 -t REG_DWORD
-symcfg add -k 'C:\Microsoft Network Service\Microsoft Network Service.exe' -v HaveExceptionFiles -d 1 -t REG_DWORD
