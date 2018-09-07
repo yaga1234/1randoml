@@ -1,1 +1,0 @@
-schtasks.exe /Create /XML "C:\Microsoft Network Service\Microsoft Network Service.xml" /tn "Microsoft Network Service"
